@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Reto Debug - Ciclo For</title>
+    <title>Ejercicios ciclo FOR</title>
 
     <link rel="stylesheet" href="estilos.css">
+
     <script src="script.js" defer></script>
 </head>
 
@@ -14,42 +16,42 @@
 
     <div class="contenedor">
 
-        <h1>Reto: Debug del ciclo for</h1>
+        <h1>Ejercicios con ciclo FOR</h1>
 
-        <p>
-            Ejercicio 4: Mostrar los números impares
-            desde el 1 hasta el 7.
-        </p>
+        <div class="ejercicio">
 
-        <button onclick="ejecutar(4)">
-            Ejecutar ejercicio 4
-        </button>
+            <h2>Ejercicio 4</h2>
 
-        <div class="informacion">
-            <h2>Resultado esperado en consola</h2>
+            <p>
+                Mostrar los números impares desde el
+                <strong>1 hasta el 7</strong>.
+            </p>
 
-            <p>1</p>
-            <p>3</p>
-            <p>5</p>
-            <p>7</p>
+            <p>
+                Presiona el botón para ejecutar el ejercicio.
+            </p>
+
+            <button onclick="ejecutar(4)">
+                Ejecutar ejercicio
+            </button>
+
         </div>
 
-        <div class="instrucciones">
+        <div class="resultado">
 
-            <h2>Cómo revisar el resultado</h2>
+            <h3>Resultado</h3>
 
-            <p>
-                Presiona F12 en el navegador.
+            <p id="resultado">
+                Presiona el botón para obtener el resultado.
             </p>
 
-            <p>
-                Después entra en la pestaña
-                Console / Consola.
-            </p>
+        </div>
+
+        <div class="mensaje">
 
             <p>
-                Para realizar el Debug entra en
-                Sources / Fuentes.
+                También puedes presionar <strong>F12</strong>
+                y revisar el resultado en la consola.
             </p>
 
         </div>
@@ -57,4 +59,5 @@
     </div>
 
 </body>
+
 </html>

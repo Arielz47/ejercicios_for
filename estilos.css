@@ -1,13 +1,10 @@
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
 
-    background: #f1f4f8;
+    margin: 0;
 
     min-height: 100vh;
 
@@ -17,12 +14,16 @@ body {
 
     align-items: center;
 
-    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    background: #f0f2f5;
+
 }
+
 
 .contenedor {
 
-    width: 100%;
+    width: 90%;
 
     max-width: 600px;
 
@@ -32,40 +33,62 @@ body {
 
     border-radius: 15px;
 
-    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 
-    text-align: center;
 }
+
 
 h1 {
 
-    margin-bottom: 20px;
+    text-align: center;
 
     color: #222;
+
+    margin-bottom: 30px;
+
 }
 
-p {
 
-    margin-bottom: 12px;
+.ejercicio {
 
-    line-height: 1.5;
+    background: #f7f8fa;
 
-    color: #444;
+    padding: 25px;
+
+    border-radius: 10px;
+
 }
+
+
+.ejercicio h2 {
+
+    margin-top: 0;
+
+    color: #1768d5;
+
+}
+
+
+.ejercicio p {
+
+    line-height: 1.6;
+
+}
+
 
 button {
 
     width: 100%;
 
-    margin-top: 20px;
-
     padding: 15px;
+
+    margin-top: 15px;
 
     border: none;
 
     border-radius: 8px;
 
-    background: #1f66d1;
+    background: #1768d5;
 
     color: white;
 
@@ -74,60 +97,60 @@ button {
     font-weight: bold;
 
     cursor: pointer;
+
 }
+
 
 button:hover {
 
-    background: #164fa5;
+    background: #1052aa;
+
 }
 
-.informacion {
+
+.resultado {
 
     margin-top: 25px;
 
     padding: 20px;
-
-    background: #eef4ff;
-
-    border-radius: 10px;
-}
-
-.informacion h2 {
-
-    margin-bottom: 15px;
-
-    font-size: 20px;
-}
-
-.informacion p {
-
-    font-family: Consolas, monospace;
-
-    font-size: 18px;
-
-    font-weight: bold;
-
-    margin: 4px;
-}
-
-.instrucciones {
-
-    margin-top: 25px;
-
-    padding: 20px;
-
-    background: #f4f4f4;
-
-    border-radius: 10px;
-
-    text-align: left;
-}
-
-.instrucciones h2 {
 
     text-align: center;
 
-    margin-bottom: 15px;
+    background: #eaf2ff;
+
+    border-radius: 10px;
+
+}
+
+
+.resultado h3 {
+
+    margin-top: 0;
+
+}
+
+
+#resultado {
 
     font-size: 20px;
+
+    font-weight: bold;
+
+    color: #1768d5;
+
+}
+
+
+.mensaje {
+
+    margin-top: 20px;
+
+    padding: 15px;
+
+    text-align: center;
+
+    background: #fff7dc;
+
+    border-radius: 8px;
+
 }
